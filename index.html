@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5d223a1d6c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="nav-bar">
+        <nav>
+            <div class="logo">
+                <i class='fas fa-graduation-cap'></i>
+                <h3>Kirani</h>
+
+            </div>
+            <ul id="nav-menu">
+                <li><a href="#">home</a></li>
+                <li><a href="#">features</a></li>
+                <li><a href="#">products</a></li>
+                <li><a href="#">categories</a></li>
+                <li><a href="#">review</a></li>
+                <li><a href="#">blogs</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+                
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+            <div class="nav-icon">
+                <i class="fa-solid fa-magnifying-glass" id="search-btn"></i>
+                <i class="fa-solid fa-cart-shopping" id="card-btn"></i>
+                <i class="fa-solid fa-user" id="login-btn"></i>
+            </div>
+        </nav>
+    </div>
+
+
+    <!--------------------Menu bar------------------------------>
+    <div class="manu-bar">
+        <div class="search-box">
+            <div class="search-content">
+            <input type="text" placeholder="Search here">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div class="form-box">
+            <div class="form-content">
+                <h2>login now</h2>
+                <input type="email" name="email" placeholder="email" required>
+                <input type="password" name="password"
+                placeholder="password">
+                <p>don't have a account <span><a href="#">Create Now</a></span></p>
+                <div class="btn">
+                    <button class="btn1">Login Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-box">
+            <div class="card-content">
+                <img src="/image/OIP-removebg-preview.png" alt="">
+                <div class="card-info">
+                    <h4>Cherry</h4>
+                    <p>$4.21 Qty:1</p>
+                </div>
+                <a href="#"><i class="fa-regular fa-trash-can"></i></a>
+                
+                
+
+            </div>
+
+            <div class="card-content">
+                <img src="/image/OIP__1_-removebg-preview.png" alt="">
+                <div class="card-info">
+                    <h4>Chiken</h4>
+                    <p>$4.21 Qty:1</p>
+                </div>
+                <a href="#"><i class="fa-regular fa-trash-can"></i></a>
+                
+
+            </div>
+
+            <div class="card-content">
+                <img src="/image/R-removebg-preview.png" alt="">
+                <div class="card-info">
+                    <h4>Cabbage</h4>
+                    <p>$4.21 Qty:1</p>
+                </div>
+                <a href="#"><i class="fa-regular fa-trash-can"></i></a>
+                
+
+            </div>
+            <h2>Total:$19.99 
+
+            </h2>
+            <div class="btn">
+                <button class="btn1">Checkout</button>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <!-------------   main content----------------------->
+    <div id="home">
+        <div class="home-box">
+            <div class="home-content">
+                <h1>Original and <span>organic</span> for you</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita ipsum quia iusto quos quisquam est.</p>
+                <div class="btn">
+                    <button class="btn1 btn2">Shop Now</button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------features--------------------->
+    <div id="features">
+        <div class="sub-title feature-title">
+            <h1>our<span>Features</span></h1>
+        </div>
+        <div class="list">
+            
+            <div class="content">
+                <img src="/image/Features/image.jpg" alt="">
+                <h2>Original and organic</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, nulla.</p>
+                <div class="btn">
+                    <button class="btn1 btn2">Shop Now</button>
+                </div>
+
+
+
+
+            </div>
+            <div class="content">
+                <img src="/image/Features/image2.png" alt="">
+                <h2>available on website</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, nulla.</p>
+                <div class="btn">
+                    <button class="btn1 btn2">Shop Now</button>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="content">
+                <img src="/image/Features/image4.jpg" alt="">
+                <h2>Comfortable Shopping Complex</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, nulla.</p>
+                <div class="btn">
+                    <button class="btn1 btn2">Shop Now</button>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+        </div>
+
+        <!-------------------------------products--------------->
+        <div id="product">
+            <div class="sub-title">
+                <h1>our<span>Product</span></h1>
+            </div>
+            <div class="list">
+                <div class="content contp">
+                    <img src="/image/category/image1.png" alt="">
+                    <h2>Original and organic</h2>
+                    <p>$200.0-$1200</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <div class="btn">
+                        <button class="btn1 btn2">Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="content contp">
+                    <img src="/image/category/jewelary1.jpg" alt="">
+                    <h2>Original and organic</h2>
+                    <p>$200.0-$1200</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <div class="btn">
+                        <button class="btn1 btn2">Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="content contp">
+                    <img src="/image/category/b.jpg" alt="">
+                    <h2>Original and organic</h2>
+                    <p>$200.0-$1200</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <div class="btn">
+                        <button class="btn1 btn2">Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="content contp">
+                    <img src="/image/category/jewelary3.jpg" alt="">
+                    <h2>Original and organic</h2>
+                    <p>$200.0-$1200</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <div class="btn">
+                        <button class="btn1 btn2">Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="content contp">
+                    <img src="/image/category/bangle1.jpg" alt="">
+                    <h2>Original and organic</h2>
+                    <p>$200.0-$1200</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <div class="btn">
+                        <button class="btn1 btn2">Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="content contp">
+                    <img src="/image/category/image6.jpg" alt="">
+                    <h2>Original and organic</h2>
+                    <p>$200.0-$1200</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <div class="btn">
+                        <button class="btn1 btn2">Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="content contp">
+                    <img src="/image/category/bangles.jpg" alt="">
+                    <h2>Original and organic</h2>
+                    <p>$200.0-$1200</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <div class="btn">
+                        <button class="btn1 btn2">Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="content contp">
+                    <img src="/image/category/bangles2.jpg" alt="">
+                    <h2>Original and organic</h2>
+                    <p>$200.0-$1200</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <div class="btn">
+                        <button class="btn1 btn2">Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="content contp">
+                    <img src="/image/category/bangle3.jpg" alt="">
+                    <h2>Original and organic</h2>
+                    <p>$200.0-$1200</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <div class="btn">
+                        <button class="btn1 btn2">Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="content contp">
+                    <img src="/image/category/bangle4.jpg" alt="">
+                    <h2>Original and organic</h2>
+                    <p>$200.0-$1200</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <div class="btn">
+                        <button class="btn1 btn2">Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="content contp">
+                    <img src="/image/category/collegebag.jpg" alt="">
+                    <h2>Original and organic</h2>
+                    <p>$200.0-$1200</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <div class="btn">
+                        <button class="btn1 btn2">Shop Now</button>
+                    </div>
+                </div>
+
+                <div class="content contp">
+                    <img src="/image/category/Trolley.jpg" alt="">
+                    <h2>Original and organic</h2>
+                    <p>$200.0-$1200</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <div class="btn">
+                        <button class="btn1 btn2">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+       <!-------------------------------categories--------------->
+       <div id="cetegories">
+        <div class="sub-title">
+            <h1>our<span>Cetegories</span></h1>
+        </div>
+        <div class="list">
+            <div class="content contc">
+                <img src="/image/category2/image8.jpg" alt="">
+                <h2>Original and organic</h2>
+                <p>upto 45% off</p>
+                
+                <div class="btn">
+                    <button class="btn1 btn2">Read More</button>
+                </div>
+            </div>
+
+            <div class="content contc">
+                <img src="/image/category2/image4.jpg" alt="">
+                <h2>Original and organic</h2>
+                <p>upto 45% off</p>
+                
+                <div class="btn">
+                    <button class="btn1 btn2">Read More</button>
+                </div>
+            </div>
+
+
+            <div class="content contc">
+                <img src="/image/category2/image6.jpg" alt="">
+                <h2>Original and organic</h2>
+                <p>upto 45% off</p>
+                
+                <div class="btn">
+                    <button class="btn1 btn2">Read More</button>
+                </div>
+            </div>
+
+
+            <div class="content contc">
+                <img src="/image/category2/bags3.jpg" alt="">
+                <h2>Original and organic</h2>
+                <p>upto 45% off</p>
+                
+                <div class="btn">
+                    <button class="btn1 btn2">Read More</button>
+                </div>
+            </div>
+
+
+            <div class="content contc">
+                <img src="/image/category2/image7.jpg" alt="">
+                <h2>Original and organic</h2>
+                <p>upto 45% off</p>
+                
+                <div class="btn">
+                    <button class="btn1 btn2">Read More</button>
+                </div>
+            </div>
+
+            <div class="content contc">
+                <img src="/image/category/image4.jpg" alt="">
+                <h2>Original and organic</h2>
+                <p>upto 45% off</p>
+                
+                <div class="btn">
+                    <button class="btn1 btn2">Read More</button>
+                </div>
+            </div>
+
+       </div>
+
+       <div id="review">
+        <div class="sub-title">
+            <h1>customer's<span>review</span></h1>
+        </div>
+        <div class="list">
+            <div class="content review">
+                <img src="/image/jayant3.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit earum magnam vel sint enim debitis ullam nisi excepturi beatae. Aut repellat qui, dicta similique vero maxime architecto consequuntur voluptate nam.</p>
+                <h2>Jayant Nayan</h2>
+                <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                
+                
+            </div>
+
+            <div class="content review">
+                <img src="/image/jayant3.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit earum magnam vel sint enim debitis ullam nisi excepturi beatae. Aut repellat qui, dicta similique vero maxime architecto consequuntur voluptate nam.</p>
+                <h2>Jayant Nayan</h2>
+                <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                
+                
+            </div>
+
+
+            <div class="content review">
+                <img src="/image/jayant3.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit earum magnam vel sint enim debitis ullam nisi excepturi beatae. Aut repellat qui, dicta similique vero maxime architecto consequuntur voluptate nam.</p>
+                <h2>Jayant Nayan</h2>
+                <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                
+                
+            </div>
+
+       </div>
+
+       <!-------------------------------Blog--------------->
+       <div id="blog">
+        <div class="sub-title">
+            <h1>our<span>Blogs</span></h1>
+        </div>
+        <div class="list">
+            <div class="content blogs">
+                <img src="/image/category/jewelary2.jpg" alt="">
+                <div class="icon-content">
+                    <div class="content-left">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p>By Admin</p>
+                    </div>
+                    <div class="content-right">
+                    <i class="fa-solid fa-user" ></i>
+                    <p>30 Jan, 2024</p>
+
+                    </div>
+                </div> 
+                    <hr>
+                    <h3>Original and organic cosmetic item</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam ab voluptate nihil.</p>
+                    <div class="btn">
+                        <button class="btn1 btn2">Read More</button>
+                    </div>
+                              
+            </div>
+        
+
+            <div class="content blogs">
+                <img src="/image/category/image2.jpg" alt="">
+                <div class="icon-content">
+                    <div class="content-left">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p>By Admin</p>
+                    </div>
+                    <div class="content-right">
+                    <i class="fa-solid fa-user" ></i>
+                    <p>30 Jan, 2024</p>
+
+                    </div>
+                </div>
+                    <hr>
+                    <h3>Original and organic cosmetic item</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam ab voluptate nihil.</p>
+                    <div class="btn">
+                        <button class="btn1 btn2">Read More</button>
+                    </div>                               
+            </div>
+
+            <div class="content blogs">
+                <img src="/image/category/bag4.jpg" alt="">
+                <div class="icon-content">
+                    <div class="content-left">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p>By Admin</p>
+                    </div>
+                    <div class="content-right">
+                    <i class="fa-solid fa-user" ></i>
+                    <p>30 Jan, 2024</p>
+
+                    </div>
+                </div>
+                    <hr>
+                    <h3>Original and organic cosmetic item</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam ab voluptate nihil.</p>
+                    <div class="btn">
+                        <button class="btn1 btn2">Read More</button>
+                    </div>                               
+            </div>
+       </div>
+
+
+       <!--------------------footer------------------------------>
+       <footer>
+        <div class="store">
+            <h2>Mayank</h2>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus deleniti accusantium autem est quasi quas.
+            <ul>
+                <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-github"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                
+              
+              
+            </ul>
+        </div>
+        <div class="contact">
+            <h2>Contact Info</h2>
+            <div class="contact1">
+                <i class="fab fa-github"></i>
+                <p>+91 78028862</p>
+
+            </div>
+            <div class="contact1">
+                <i class="fab fa-github"></i>
+                <p>+91 78028862</p>
+
+            </div>
+            <div class="contact1">
+                <i class="fab fa-github"></i>
+                <p>jayantnayan3@gmail.com</p>
+
+            </div>
+            <div class="contact1">
+            <i class="fab fa-github"></i>
+            <p>Koath Bihar -802216</p>
+            </div>
+            
+        </div>
+        <div class="link">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">features</a></li>
+                <li><a href="#">products</a></li>
+                <li><a href="#">categories</a></li>
+                <li><a href="#">review</a></li>
+                <li><a href="#">blogs</a></li>
+            </ul>
+
+        </div>
+       </footer>
+       
+
+
+
+
+    
+
+
+
+
+    <!-------------------------------Script--------------->
+
+    <script>
+        var searchbox = document.querySelector('.search-box');
+        document.querySelector('#search-btn').onclick = () =>{
+            searchbox.classList.toggle('active');
+        }
+
+        var formbox = document.querySelector('.form-box');
+        document.querySelector('#card-btn').onclick = () =>{
+            formbox.classList.toggle('active');
+        }
+        var cardbox = document.querySelector('.card-box');
+        document.querySelector('#login-btn').onclick = () =>{
+            cardbox.classList.toggle('active');
+        }
+
+
+        var sidemeu = document.getElementById("nav-menu");
+
+function openmenu() {
+  sidemeu.style.right = "0";
+}
+function closemenu() {
+  sidemeu.style.right = "-200px";
+}
+    </script>
+</body>
+</html>
